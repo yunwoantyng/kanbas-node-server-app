@@ -12,7 +12,7 @@ const app = express();
 app.use(cors()); // any request can access this server
 app.use(express.json()); // parse json body
 
-Hello(app);
+//Hello(app);
 Lab5(app);
 ModuleRoutes(app);
 CourseRoutes(app);
