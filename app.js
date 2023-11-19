@@ -12,9 +12,9 @@ const app = express();
 app.use(cors()); // any request can access this server
 app.use(express.json()); // parse json body
 
-//Hello(app);
 Lab5(app);
 ModuleRoutes(app);
 CourseRoutes(app);
+Hello(app);
 
 app.listen(process.env.PORT || 4000);
